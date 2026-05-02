@@ -1,9 +1,9 @@
 # Fantasy Cricket Game 🏏
 
 ## About
-A Fantasy Cricket desktop application built with Python, 
-Tkinter and SQLite. This is the final project for the 
-Internshala Programming with Python course.
+A Fantasy Cricket desktop application built with Python,
+Tkinter and SQLite. This is the final project for the
+Internshala Programming in Python with AI course.
 
 ## Features
 - ✅ Create and manage fantasy cricket teams
@@ -14,18 +14,27 @@ Internshala Programming with Python course.
 - ✅ Game rules validation (max players per category)
 
 ## How to Run
+> **Note:** `tkinter` and `sqlite3` come built-in with Python — no pip install needed!
+
 ```bash
-pip install tkinter
+# 1. Clone the repository
+git clone https://github.com/shubhashreekt/fantasy-cricket.git
+cd fantasy-cricket
+
+# 2. Run the database setup
 python database.py
+
+# 3. Launch the app
 python main.py
 ```
 
 ## Game Rules
+
 ### Batting
-- 1 point for 2 runs scored
-- 5 bonus points for half century
-- 10 bonus points for century
-- 2 points for strike rate 80-100
+- 1 point for every 2 runs scored
+- 5 bonus points for a half century
+- 10 bonus points for a century
+- 2 points for strike rate 80–100
 - 6 points for strike rate > 100
 
 ### Bowling
@@ -35,7 +44,7 @@ python main.py
 - Economy rate bonus points
 
 ### Fielding
-- 10 points each for catch/stumping/run out
+- 10 points each for catch / stumping / run out
 
 ## Team Selection Rules
 - Maximum 11 players
@@ -46,16 +55,20 @@ python main.py
 - Total points budget: 1000
 
 ## Tech Stack
-- Python 3.11
+- Python 3.x
 - Tkinter (GUI)
 - SQLite (Database)
 - 3 Database tables: stats, match, teams
 
 ## Database Design
 - **stats** — Player statistics and category
-- **match** — Match performance data
+- **match** — Match performance data per player
 - **teams** — Saved fantasy teams
 
+## Certificate
+Built as part of the **Programming in Python with AI** certification by Internshala.
+- Issued: April 2026 | Score: 71% | Cert No: `cip8ur2muf_`
+
 ## Author
-K T Tanuja | Python Developer | Bangalore
-github.com/tanuja1229
+**Shubha Shree K T** | Python Developer | Bengaluru
+[github.com/shubhashreekt](https://github.com/shubhashreekt)
